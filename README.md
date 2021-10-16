@@ -28,7 +28,7 @@ Rota base da APi
 localhost/api
 ```
 
-Endpoints
+### Endpoints
 
 | Método  |  Endpoint  |Descrição |Observações
 | ------------------- | ------------------- |-------------------|-------------------|
