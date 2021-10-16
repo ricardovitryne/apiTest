@@ -44,7 +44,7 @@ localhost/api
 {
   "name"		  : "Ricardo Gonçalves",
   "phone"	          : "(74) 9646-0989",
-  "cpf"			  : "123456789f",
+  "cpf"			  : "12345678912",
   "car_plate"	          : "APX-1300"
 }
 ```
