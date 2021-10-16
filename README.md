@@ -30,16 +30,16 @@ localhost/api
 
 Endpoints
 
-| Método  |  Endpoint  |Retorno |Observações
+| Método  |  Endpoint  |Descrição |Observações
 | ------------------- | ------------------- |-------------------|-------------------|
-|  GET |  localhost/api/cliente | Lista todos os clientes||
+|  GET |  localhost/api/cliente | Lista todos os clientes|Collection com paginação. Exibe 15 clientes por página.|
 |  POST |  localhost/api/cliente |Cadastra novo cliente|cpf é campo único|
 |  PUT |  localhost/api/cliente/{id} |Edita um cliente|informar no mínimo um campo para atualizar|
-|  DELETE |  localhost/api/cliente/{id} |Remove um cliente||
-|  GET |  localhost/api/cliente/{id} |Exibe um cliente||
+|  DELETE |  localhost/api/cliente/{id} |Remove um cliente| Soft delete|
+|  GET |  localhost/api/cliente/{id} |Exibe um cliente|ID exibido é na verdade o ID real criptografado |
 |  GET |  localhost/api/consulta/final-placa/{numero} |Exibe todos os clientes onde o último número da placa é igual ao informado||
 
-###Exemplo de JSON para inserção e atualização:
+### Exemplo de JSON para inserção e atualização:
 ```sh
 {
   "name"		  : "Ricardo Gonçalves",
