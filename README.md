@@ -33,11 +33,11 @@ Endpoints
 | Método  |  Endpoint  |Descrição |Observações
 | ------------------- | ------------------- |-------------------|-------------------|
 |  GET |  localhost/api/cliente | Lista todos os clientes|Collection com paginação. Exibe 15 clientes por página.|
-|  POST |  localhost/api/cliente |Cadastra novo cliente|cpf é campo único|
-|  PUT |  localhost/api/cliente/{id} |Edita um cliente|informar no mínimo um campo para atualizar|
+|  POST |  localhost/api/cliente |Cadastra novo cliente|CPF é campo único|
+|  PUT |  localhost/api/cliente/{id} |Edita um cliente|Informar no mínimo um campo para atualizar|
 |  DELETE |  localhost/api/cliente/{id} |Remove um cliente| Soft delete|
 |  GET |  localhost/api/cliente/{id} |Exibe um cliente|ID exibido é na verdade o ID real criptografado |
-|  GET |  localhost/api/consulta/final-placa/{numero} |Exibe todos os clientes onde o último número da placa é igual ao informado||
+|  GET |  localhost/api/consulta/final-placa/{numero} |Exibe todos os clientes onde o último número da placa é igual ao informado|É aceito como parâmetro apenas 1 número de 0 a 9.|
 
 ### Exemplo de JSON para inserção e atualização:
 ```sh
