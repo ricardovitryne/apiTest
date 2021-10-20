@@ -5,7 +5,7 @@
 
 Clone Repositório
 ```sh
-git clone https://github.com/ricardovitryne/apijn2
+git clone https://github.com/ricardovitryne/apiTest
 ```
 
 Suba os containers
